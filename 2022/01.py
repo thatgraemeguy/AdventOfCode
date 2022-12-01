@@ -2,9 +2,7 @@
 
 #NOTE: for this to work, the given data must end in a blank newline
 
-import os
-
-with open(os.path.join(os.path.dirname(__file__), 'data/01.txt')) as f:
+with open('data/01.txt') as f:
     lines = f.read().splitlines()
 
 #lines is a list like ['1000', 3000', '', '5000', ''] for 2 elves
