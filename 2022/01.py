@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
 
-#NOTE: for this to work, the given data must end in a blank newline
-
 with open('data/01.txt') as f:
     lines = f.read().splitlines()
 
